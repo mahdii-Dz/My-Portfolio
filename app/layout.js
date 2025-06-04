@@ -36,7 +36,11 @@ const Nexa = localFont({
 export const metadata = {
   title: "Mahdi portfolio",
   description: "my portfolio website",
+  icons:{
+    icon: "/icon.png"
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
