@@ -7,7 +7,7 @@ import ScrollReveal from './ScrollReveal';
 
 function About() {
     return (
-        <section className="about w-full h-dvh text-white flex flex-col justify-center">
+        <section id='about' className="about w-full h-dvh text-white flex flex-col justify-center">
             <ScrollFloat
                 containerClassName='w-full h-auto font-black flex items-center justify-center'
                 animationDuration={1}

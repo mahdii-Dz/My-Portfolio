@@ -4,7 +4,7 @@ function NavBar() {
     return (
         <header className='w-full h-20 bg-white/1 backdrop-blur-[5px] px-16 z-50 fixed flex items-center justify-between'>
             <div>
-                <h1 className='text-4xl text-white font-black'>Mahdi</h1>
+                <a href="#home"><h1 className='text-4xl text-white font-black'>Mahdi</h1></a>
             </div>
             <div className='flex items-center capitalize font-bold text-lg'>
                 <nav className='text-white flex items-center gap-16 '>

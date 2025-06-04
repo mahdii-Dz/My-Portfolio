@@ -6,7 +6,7 @@ import SpotlightCard from './SpotLightCard'
 
 function Projects() {
     return (
-        <section className='projects z-50 w-full h-auto mt-32 text-white flex flex-col justify-center items-center'>
+        <section id='projects' className='projects z-50 w-full h-auto mt-32 text-white flex flex-col justify-center items-center'>
             <ScrollFloat
                 containerClassName='w-full h-48 !py-0 !my-0 font-black flex items-center justify-center'
                 animationDuration={2}
