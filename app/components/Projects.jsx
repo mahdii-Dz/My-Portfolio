@@ -19,7 +19,7 @@ function Projects() {
             </ScrollFloat>
             <div className="container flex gap-16 flex-wrap justify-center items-center">
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-                    <div className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
+                    <div aria-label='project wrapper' className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
                         <div>
                             <Image loading='lazy' alt='startup pitch project photo' src={'/projects/startup.png'} width={350} height={200} className='rounded-lg border border-customGray-50' />
                             <div className="content">
@@ -44,7 +44,7 @@ function Projects() {
                     </div>
                 </SpotlightCard>
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-                    <div className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
+                    <div aria-label='project wrapper' className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
                         <div>
                             <Image loading='lazy' alt='Coffee shop project photo' src={'/projects/coffee.png'} width={350} height={200} className='rounded-lg border border-customGray-50' />
                             <div className="content">
@@ -66,7 +66,7 @@ function Projects() {
                     </div>
                 </SpotlightCard>
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-                    <div className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
+                    <div aria-label='project wrapper' className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
                         <div>
                             <Image loading='lazy' alt='Food Recipe project photo' src={'/projects/foodRecipe.png'} width={350} height={200} className='rounded-lg border border-customGray-50' />
                             <div className="content">
@@ -88,7 +88,7 @@ function Projects() {
                     </div>
                 </SpotlightCard>
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-                    <div className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
+                    <div aria-label='project wrapper' className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
                         <div>
                             <Image loading='lazy' alt='Quiz App project photo' src={'/projects/Quiz.png'} width={350} height={200} className='rounded-lg border border-customGray-50' />
                             <div className="content">
@@ -111,7 +111,7 @@ function Projects() {
                     </div>
                 </SpotlightCard>
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-                    <div className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
+                    <div aria-label='project wrapper' className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10'>
                         <div>
                             <Image loading='lazy' alt='Expense tracker project photo' src={'/projects/Expense.png'} width={350} height={200} className='rounded-lg border border-customGray-50' />
                             <div className="content">
@@ -134,7 +134,7 @@ function Projects() {
                     </div>
                 </SpotlightCard>
                 <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-                    <div className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10' >
+                    <div aria-label='project wrapper' className='wrapper flex flex-col items-center justify-between w-96 h-auto bg-black-lighter/15 rounded-2xl border border-black-lighter-active p-4 z-10' >
                         <div>
                             <Image loading='lazy' alt='Shopping Cart project photo' src={'/projects/Cart.png'} width={350} height={200} className='rounded-lg border  border-customGray-50' />
                             <div className="content">
@@ -157,7 +157,7 @@ function Projects() {
                     </div>
                 </SpotlightCard>
             </div>
-            <div className="count w-60 h-20 flex items-center cursor-pointer justify-center mt-16 border-2 gap-2 border-white rounded-full hover:shadow-custom hover:shadow-white hover:-translate-y-4 hover:translate-x-4 transition duration-200 ease-in-out">
+            <div aria-label='project view more wrapper' className="count w-60 h-20 flex items-center cursor-pointer justify-center mt-16 border-2 gap-2 border-white rounded-full hover:shadow-custom hover:shadow-white hover:-translate-y-4 hover:translate-x-4 transition duration-200 ease-in-out">
                 <a href='https://github.com/mahdii-Dz?tab=repositories' target='_blank' className='text-2xl font-bold flex items-center gap-2'>
                     <div>
                         <span>+</span>

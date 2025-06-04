@@ -16,9 +16,9 @@ export default function main() {
       <Image alt='right light' src="/Ellipse.svg" width={1000} height={1000} className="fixed select-none -bottom-110 -right-110 pointer-events-none" />
       <div className='social-icons fixed bottom-8 right-8 z-50 flex flex-col items-center justify-between gap-6 '>
         <img src="/line 1.svg" alt='line' />
-        <a target='_blank' href="https://github.com/mahdii-Dz"><i className="fi fi-brands-github text-2xl flex text-customGray-300 hover:text-customGray-200"></i></a>
-        <a target='_blank' href="https://www.linkedin.com/in/mahdihadjidj/"><i className="fi fi-brands-linkedin text-[26px] flex justify-center text-customGray-300 hover:text-customGray-200"></i></a>
-        <a target='_blank' href="https://www.instagram.com/mahdi.hadjidj/"><i className="fi fi-brands-instagram text-2xl flex text-customGray-300 hover:text-customGray-200"></i></a>
+        <a target='_blank' aria-label='github Link' href="https://github.com/mahdii-Dz"><i className="fi fi-brands-github text-2xl flex text-customGray-300 hover:text-customGray-200"></i></a>
+        <a target='_blank' aria-label='linkedin Link' href="https://www.linkedin.com/in/mahdihadjidj/"><i className="fi fi-brands-linkedin text-[26px] flex justify-center text-customGray-300 hover:text-customGray-200"></i></a>
+        <a target='_blank' aria-label='instagram Link' href="https://www.instagram.com/mahdi.hadjidj/"><i className="fi fi-brands-instagram text-2xl flex text-customGray-300 hover:text-customGray-200"></i></a>
         <img src="/line 1.svg" alt='line' />
       </div>
       <NavBar />
