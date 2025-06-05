@@ -36,7 +36,7 @@ function Projects() {
                                 <span>...</span>
                             </div>
                             <div className='github text-customGray-200'>
-                                <a href="https://github.com/mahdii-Dz/StartUps-Pitch" target='_blank' className='text-2xl !cursor-pointer'>
+                                <a aria-label='github repo link' href="https://github.com/mahdii-Dz/StartUps-Pitch" target='_blank' className='text-2xl !cursor-pointer'>
                                     <i className="fi fi-brands-github"></i>
                                 </a>
                             </div>
@@ -58,7 +58,7 @@ function Projects() {
                                 <span>TailwindCss</span>
                             </div>
                             <div className='github text-customGray-200'>
-                                <a href="https://github.com/mahdii-Dz/coffe-Shop-with-TailwindCSS" target='_blank' className='text-2xl !cursor-pointer'>
+                                <a aria-label='github repo link' href="https://github.com/mahdii-Dz/coffe-Shop-with-TailwindCSS" target='_blank' className='text-2xl !cursor-pointer'>
                                     <i className="fi fi-brands-github"></i>
                                 </a>
                             </div>
@@ -80,7 +80,7 @@ function Projects() {
                                 <span>TailwindCss</span>
                             </div>
                             <div className='github text-customGray-200'>
-                                <a href="https://github.com/mahdii-Dz/Food-Recipe-App" target='_blank' className='text-2xl !cursor-pointer'>
+                                <a aria-label='github repo link' href="https://github.com/mahdii-Dz/Food-Recipe-App" target='_blank' className='text-2xl !cursor-pointer'>
                                     <i className="fi fi-brands-github"></i>
                                 </a>
                             </div>
@@ -103,7 +103,7 @@ function Projects() {
                                 <span>JavaScript</span>
                             </div>
                             <div className='github text-customGray-200'>
-                                <a href="https://github.com/mahdii-Dz/Quiz-app" target='_blank' className='text-2xl !cursor-pointer'>
+                                <a aria-label='github repo link' href="https://github.com/mahdii-Dz/Quiz-app" target='_blank' className='text-2xl !cursor-pointer'>
                                     <i className="fi fi-brands-github"></i>
                                 </a>
                             </div>
@@ -126,7 +126,7 @@ function Projects() {
                                 <span>Chakra UI</span>
                             </div>
                             <div className='github text-customGray-200'>
-                                <a href="https://github.com/mahdii-Dz/Expense-Tracker-App" target='_blank' className='text-2xl !cursor-pointer'>
+                                <a aria-label='github repo link' href="https://github.com/mahdii-Dz/Expense-Tracker-App" target='_blank' className='text-2xl !cursor-pointer'>
                                     <i className="fi fi-brands-github"></i>
                                 </a>
                             </div>
@@ -149,7 +149,7 @@ function Projects() {
                                 <span>Redux</span>
                             </div>
                             <div className='github text-customGray-200'>
-                                <a href="https://github.com/mahdii-Dz/Shopping-Cart-using-Redux-on-React" target='_blank' className='text-2xl !cursor-pointer'>
+                                <a aria-label='github repo link' href="https://github.com/mahdii-Dz/Shopping-Cart-using-Redux-on-React" target='_blank' className='text-2xl !cursor-pointer'>
                                     <i className="fi fi-brands-github"></i>
                                 </a>
                             </div>
@@ -158,7 +158,7 @@ function Projects() {
                 </SpotlightCard>
             </div>
             <div aria-label='project view more wrapper' className="count w-60 h-20 flex items-center cursor-pointer justify-center mt-16 border-2 gap-2 border-white rounded-full hover:shadow-custom hover:shadow-white hover:-translate-y-4 hover:translate-x-4 transition duration-200 ease-in-out">
-                <a href='https://github.com/mahdii-Dz?tab=repositories' target='_blank' className='text-2xl font-bold flex items-center gap-2'>
+                <a aria-label="github repo's link" href='https://github.com/mahdii-Dz?tab=repositories' target='_blank' className='text-2xl font-bold flex items-center gap-2'>
                     <div>
                         <span>+</span>
                         <CountUp
