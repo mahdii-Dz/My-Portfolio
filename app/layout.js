@@ -35,9 +35,15 @@ const Nexa = localFont({
 
 export const metadata = {
   title: "Mahdi portfolio",
-  description: "my portfolio website",
+  description: "Mahdi hadjidj portfolio website developed with Nextjs!",
   icons:{
     icon: "/icon.png"
+  },
+  twitter: {
+    card: "/tumor.png",
+    title: "Mahdi hadjidj portfolio website",
+    description: "Mahdi hadjidj portfolio website developed with Nextjs!",
+    creator: "@mahdii_Dz",seo
   },
 };
 

@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 
 export default function main() {
   return (
-    <main className="main relative w-full h-auto overflow-x-clip bg-black-normal">
+    <main role='main' className="main relative w-full h-auto overflow-x-clip bg-black-normal">
       <Image alt='background image' src="/grid.png" width={2525} height={1500} className="max-w-[2525px] h-auto opacity-10 select-none -z-0 fixed pointer-events-none" />
       <Image alt='left light' src="/Ellipse.svg" width={1000} height={1000} className="fixed select-none -top-56 -left-125 pointer-events-none" />
       <Image alt='right light' src="/Ellipse.svg" width={1000} height={1000} className="fixed select-none -bottom-110 -right-110 pointer-events-none" />
