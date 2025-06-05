@@ -62,7 +62,7 @@ function Home() {
                     />
                     <RotatingText
                         texts={['Front-end developer', 'UI/UX Designer']}
-                        mainClassName="px-2 sm:px-2 md:px-3 text-[44px] bg-primary-500 text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg z-100"
+                        mainClassName="px-2 sm:px-2 md:px-3 text-[44px] bg-primary-500 text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg z-10"
                         staggerFrom={"last"}
                         initial={{ y: "100%" }}
                         animate={{ y: 0 }}
