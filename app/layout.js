@@ -61,6 +61,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="XzsC1_5rD-nJJh1-rF7b4aeikFvUEC0MUMzzUnR_pdI" />
         <link
           rel="stylesheet"
           href="https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css"
