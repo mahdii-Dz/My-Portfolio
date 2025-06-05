@@ -40,10 +40,11 @@ export const metadata = {
     icon: "/icon.png"
   },
   twitter: {
-    image: "https://cdn-icons-png.flaticon.com/512/4072/4072409.png",
+    card: "summary_large_image",
     title: "Mahdi hadjidj portfolio website",
     description: "Mahdi hadjidj portfolio website developed with Nextjs!",
     creator: "@mahdii_Dz",
+    image: 'https://cdn-icons-png.flaticon.com/512/4072/4072409.png',
   },
 };
 
