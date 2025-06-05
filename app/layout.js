@@ -43,7 +43,7 @@ export const metadata = {
     card: "/tumor.png",
     title: "Mahdi hadjidj portfolio website",
     description: "Mahdi hadjidj portfolio website developed with Nextjs!",
-    creator: "@mahdii_Dz",seo
+    creator: "@mahdii_Dz",
   },
 };
 
