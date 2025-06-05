@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import { ReactLenis, useLenis } from 'lenis/react'
+import { ReactLenis, useLenis } from "lenis/react";
 
 const Nexa = localFont({
   src: [
@@ -41,25 +41,35 @@ export const metadata = {
     title: "Mahdi hadjidj portfolio website",
     description: "Mahdi hadjidj portfolio website developed with Nextjs!",
     creator: "@mahdii_Dz",
-    image: 'https://cdn-icons-png.flaticon.com/512/4072/4072409.png',
+    image: "https://cdn-icons-png.flaticon.com/512/4072/4072409.png",
   },
 };
-
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'></link>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'></link>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-chubby/css/uicons-regular-chubby.css'></link>
+        <meta name="twitter:title" content={metadata.twitter.title} />
+        <meta
+          name="twitter:description"
+          content={metadata.twitter.description}
+        />
+        <meta name="twitter:image" content={metadata.twitter.image} />F
+        <link
+          rel="stylesheet"
+          href="https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css"
+        ></link>
+        <link
+          rel="stylesheet"
+          href="https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css"
+        ></link>
+        <link
+          rel="stylesheet"
+          href="https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-chubby/css/uicons-regular-chubby.css"
+        ></link>
       </head>
-      <body
-      className={Nexa.className}
-      >
-        <ReactLenis root>
-          {children}
-        </ReactLenis>
+      <body className={Nexa.className}>
+        <ReactLenis root>{children}</ReactLenis>
       </body>
     </html>
   );
