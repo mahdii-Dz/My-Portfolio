@@ -1,5 +1,5 @@
 // next-sitemap.config.js
 module.exports = {
-  siteUrl: "https://yourdomain.com",
+  siteUrl: "https://mahdiiportfolio.netlify.app",
   generateRobotsTxt: true,
 };
