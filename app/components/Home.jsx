@@ -4,7 +4,7 @@ import SplitText from "../components/SplitText";
 function Home() {
     return (
         <section id="home" className="home w-full h-dvh text-white flex items-center pl-56 font-black">
-            <div className="flex flex-col items-start">
+            <div aria-label="home section content" className="flex flex-col items-start">
                 <SplitText
                     text="Hello,"
                     className="text-[40px] text-center"

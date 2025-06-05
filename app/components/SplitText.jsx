@@ -103,7 +103,6 @@ const SplitText = ({
 
   return (
     <p
-      aria-label="Split text"
       ref={ref}
       className={`split-parent overflow-hidden inline-block whitespace-normal ${className}`}
       style={{
