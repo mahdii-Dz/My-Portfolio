@@ -34,14 +34,26 @@ const Nexa = localFont({
 });
 
 export const metadata = {
-  title: "Mahdi portfolio",
-  description: "Mahdi hadjidj portfolio website developed with Nextjs!",
+  title: "Mahdi Hadjidj | Portfolio",
+  description: "Creative developer portfolio showcasing projects built with Next.js",
+  openGraph: {
+    title: "Mahdi Hadjidj | Portfolio",
+    description: "Creative developer portfolio showcasing projects built with Next.js",
+    url: "https://mahdiiportfolio.netlify.app/",
+    images: [
+      {
+        url: "https://raw.githubusercontent.com/mahdii-Dz/My-Portfolio/refs/heads/main/public/image.png", 
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
   twitter: {
     card: "summary_large_image",
-    title: "Mahdi hadjidj portfolio website",
-    description: "Mahdi hadjidj portfolio website developed with Nextjs!",
+    title: "Mahdi Hadjidj | Portfolio",
+    description: "Creative developer portfolio showcasing projects built with Next.js",
     creator: "@mahdii_Dz",
-    image: "https://cdn-icons-png.flaticon.com/512/4072/4072409.png",
+    image: ["https://raw.githubusercontent.com/mahdii-Dz/My-Portfolio/refs/heads/main/public/image.png"],
   },
 };
 
@@ -49,12 +61,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="twitter:title" content={metadata.twitter.title} />
-        <meta
-          name="twitter:description"
-          content={metadata.twitter.description}
-        />
-        <meta name="twitter:image" content={metadata.twitter.image} />F
         <link
           rel="stylesheet"
           href="https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css"
