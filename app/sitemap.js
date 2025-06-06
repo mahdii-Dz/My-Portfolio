@@ -3,7 +3,7 @@
 export default function sitemap() {
     return [
         {
-            url: "hhttps://mahdiiportfolio.netlify.app/",
+            url: "https://mahdiiportfolio.netlify.app/",
             lastModified: new Date(),
             changeFrequency: 'monthly',
             priority: 1,
