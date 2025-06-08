@@ -1,4 +1,3 @@
-"use client";
 import React from 'react'
 import ScrollFloat from './ScrollFloat';
 import ScrollReveal from './ScrollReveal';

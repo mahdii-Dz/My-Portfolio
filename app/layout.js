@@ -36,6 +36,7 @@ const Nexa = localFont({
 export const metadata = {
   title: "Mahdi Hadjidj | Portfolio",
   description: "Creative developer portfolio showcasing projects built with Next.js",
+  keywords:'mahdi,portfolio,mahdi portfolio,best portfolio,best developer portfolio,mahdi hadjidj,portfolio website,mahdi portfolio website,mahdi hadjidj portfolio,mahdi portfolio website,mahdi hadjidj portfolio website',
   openGraph: {
     title: "Mahdi Hadjidj | Portfolio",
     description: "Creative developer portfolio showcasing projects built with Next.js",
@@ -62,18 +63,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="XzsC1_5rD-nJJh1-rF7b4aeikFvUEC0MUMzzUnR_pdI" />
-        <link
-          rel="stylesheet"
-          href="https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css"
-        ></link>
-        <link
-          rel="stylesheet"
-          href="https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css"
-        ></link>
-        <link
-          rel="stylesheet"
-          href="https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-chubby/css/uicons-regular-chubby.css"
-        ></link>
       </head>
       <body className={Nexa.className}>
         <ReactLenis root>{children}</ReactLenis>
