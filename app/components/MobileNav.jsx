@@ -18,7 +18,7 @@ function MobileNav() {
             </div>
             <aside
                 ref={ref}
-                className={`flex absolute overflow-auto z-50 top-0 right-0 w-72 h-dvh bg-white/30 backdrop-blur-[20px]  flex-col items-center font-bold justify-between pt-12 pb-6 px-4 ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition duration-300 ease-in-out`}>
+                className={`flex absolute overflow-auto top-0 right-0 w-72 h-dvh bg-white/30 backdrop-blur-[20px]  flex-col items-center font-bold justify-between pt-12 pb-6 px-4 ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition duration-300 ease-in-out`}>
                 <div onClick={() => setIsOpen(!isOpen)} className='exitBtn absolute top-2 left-2 text-3xl text-customGray-200'>
                     <Image aria-label='exit button' src="/X.svg" width={32} height={32} alt="X" />
                 </div>
