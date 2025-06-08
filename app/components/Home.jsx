@@ -3,7 +3,7 @@ import SplitText from "../components/SplitText";
 
 function Home() {
     return (
-        <section id="home" className="home w-full h-dvh text-white flex items-center pl-56 font-black">
+        <section id="home" className="home w-full h-dvh text-white flex items-center px-4 sm:pl-56 mb-4 font-black">
             <div className="flex flex-col items-start">
                 <SplitText
                     text="Hello,"
@@ -46,10 +46,10 @@ function Home() {
                         textAlign="center"
                     />
                 </div>
-                <div className="flex items-center gap-4 ">
+                <div className="flex flex-col relative sm:flex-row sm:items-center items-start gap-4 ">
                     <SplitText
                         text="I Work as a"
-                        className="text-[48px] text-center"
+                        className="text-[48px]  text-center"
                         delay={100}
                         duration={0.6}
                         ease="power3.out"
@@ -62,7 +62,7 @@ function Home() {
                     />
                     <RotatingText
                         texts={['Front-end developer', 'UI/UX Designer']}
-                        mainClassName="px-2 sm:px-2 md:px-3 text-[44px] bg-primary-500 text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg z-10"
+                        mainClassName="px-2 sm:px-2 md:px-3 text-[32px] absolute sm:static bg-primary-500 text-black overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg z-10"
                         staggerFrom={"last"}
                         initial={{ y: "100%" }}
                         animate={{ y: 0 }}

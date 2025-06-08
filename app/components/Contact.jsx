@@ -30,7 +30,7 @@ function Contact() {
       >
         Contact
       </ScrollFloat>
-      <form action={handleSubmit} className='w-1/2 h-auto p-12 mt-16 bg-black-lighter/15 border border-customGray-200 backdrop-blur-sm rounded-2xl'>
+      <form action={handleSubmit} className='w-full sm:w-1/2 h-auto p-6 sm:p-12 mt-16 bg-black-lighter/15 border border-customGray-200 backdrop-blur-sm rounded-2xl'>
         <input type="text" id='name' name='name' placeholder='Name' className='w-full h-16 bg-customGray-400 border border-customGray-200 rounded-2xl mb-8 py-2.5 px-4 outline-none ' />
         <input type="text" id='email' name='email' placeholder='Email' className='w-full h-16 bg-customGray-400 border border-customGray-200 rounded-2xl mb-8 py-2.5 px-4 outline-none ' />
         <ValidationError prefix="Email" field="email" errors={state.errors} />

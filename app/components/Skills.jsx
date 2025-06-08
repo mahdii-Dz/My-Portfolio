@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function Skills() {
     return (
-        <section id='skills' className="skills w-full h-auto mt-32 pt-40 text-white flex flex-col justify-center items-center">
+        <section id='skills' className="skills w-full h-auto mt-36 pt-40 text-white flex flex-col justify-center items-center">
             <ScrollFloat
                 containerClassName='w-full h-48 !py-0 !my-0 font-black flex items-center justify-center'
                 animationDuration={1.5}

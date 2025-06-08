@@ -80,7 +80,7 @@ const ScrollFloat = ({
       className={`my-5 py-96 overflow-hidden ${containerClassName}`}
     >
       <span
-        className={`inline-block text-[clamp(1.6rem,6vw,4rem)] leading-[1.5] ${textClassName}`}
+        className={`inline-block text-[clamp(3rem,6vw,7rem)] leading-[1.5] ${textClassName}`}
       >
         {splitText}
       </span>
