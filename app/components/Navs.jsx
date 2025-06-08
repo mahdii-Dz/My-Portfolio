@@ -10,16 +10,6 @@ function Navs() {
     height: 0
   });
   useEffect(() => {
-/*************  ✨ Windsurf Command ⭐  *************/
-  /**
-   * Handles window resize event.
-   * 
-   * Updates the windowSize state variable with the new window dimensions.
-   * 
-   * @function
-   * @returns {void}
-   */
-/*******  504504f0-62c2-47a9-aea9-f1eaeadc964f  *******/
     const handleResize = () => {
       if (typeof window !== "undefined") {
         setWindowSize({
@@ -28,10 +18,12 @@ function Navs() {
         });
       }
     };
+    handleResize()
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+  console.log(windowSize);
+  
   return (
     <>
       {
