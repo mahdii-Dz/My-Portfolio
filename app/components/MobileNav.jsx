@@ -4,7 +4,6 @@ import { useClickOutside } from 'react-haiku'
 
 function MobileNav() {
     const [isOpen, setIsOpen] = useState(false)
-    const [scrollY, setScrollY] = useState(0)
     const ref = useRef()
     function handleClickOutSide() {
         setIsOpen(false)
