@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import ScrollFloat from './ScrollFloat'
-import CountUp from './CountUp'
-import SpotlightCard from './SpotLightCard'
+import dynamic from 'next/dynamic'
+
+const SpotlightCard = dynamic(() => import('./SpotLightCard'));
+const CountUp = dynamic(() => import('./CountUp'));
+const ScrollFloat = dynamic(() => import('./ScrollFloat'));
 
 function Projects() {
     return (

@@ -1,9 +1,12 @@
 'use client'
-import React, { useActionState, useEffect, useState } from 'react'
-import ScrollFloat from './ScrollFloat'
+import React, { useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
 import { Toaster } from '@/components/ui/sonner'
 import { toast } from 'sonner'
+import dynamic from 'next/dynamic'
+
+const ScrollFloat = dynamic(() => import('./ScrollFloat'));
+
 
 
 function Contact() {

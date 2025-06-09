@@ -1,7 +1,8 @@
 import React from 'react'
-import ScrollFloat from './ScrollFloat'
-import AnimatedContent from './AnimatedContent'
 import Image from 'next/image'
+import dynamic from 'next/dynamic'
+const ScrollFloat = dynamic(() => import('./ScrollFloat'));
+const AnimatedContent = dynamic(() => import('./AnimatedContent'));
 
 function Skills() {
     return (

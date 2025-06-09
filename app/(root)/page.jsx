@@ -1,12 +1,19 @@
 import 'lenis/dist/lenis.css'
 import Home from "../components/Home";
+import Image from 'next/image';
 import Header from "../components/Header";
 import About from '../components/About';
-import Skills from '../components/Skills';
-import Image from 'next/image';
-import Projects from '../components/Projects';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
+// import Skills from '../components/Skills';
+// import Projects from '../components/Projects';
+// import Contact from '../components/Contact';
+// import Footer from '../components/Footer';
+import dynamic from 'next/dynamic';
+
+const Skills = dynamic(() => import('../components/Skills'));
+const Projects = dynamic(() => import('../components/Projects'));
+const Contact = dynamic(() => import('../components/Contact'));
+const Footer = dynamic(() => import('../components/Footer'));
+
 
 
 

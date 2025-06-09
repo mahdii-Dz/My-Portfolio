@@ -1,5 +1,6 @@
-import RotatingText from "../components/RotatingText";
-import SplitText from "../components/SplitText";
+import dynamic from "next/dynamic";
+const RotatingText = dynamic(() => import("../components/RotatingText"));
+const SplitText = dynamic(() => import("../components/SplitText"));
 
 function Home() {
     return (
