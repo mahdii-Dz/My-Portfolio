@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
-const ScrollFloat = dynamic(() => import('./ScrollFloat'));
-const AnimatedContent = dynamic(() => import('./AnimatedContent'));
+const ScrollFloat = dynamic(() => import('../components/ScrollFloat'));
+const AnimatedContent = dynamic(() => import('../components/AnimatedContent'));
 
 function Skills() {
     return (
@@ -69,9 +69,9 @@ function Skills() {
 
                 <div className="wrapper">
                     <div className='w-32 h-32 flex items-center justify-center bg-black-lighter/15 rounded-2xl backdrop-blur-[5px]'>
-                        <Image alt='css photo' src={'/skills/Css.svg'} width={72} height={72} className='select-none' />
+                        <Image alt='three JS photo' src={'/skills/ThreeJS.svg'} width={72} height={72} className='select-none invert' />
                     </div>
-                    <h3 className='text-lg font-bold text-center mt-2'>Css</h3>
+                    <h3 className='text-lg font-bold text-center mt-2'>Three Js</h3>
                 </div>
             </div>
             <AnimatedContent

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navs from './Navs'
+import Navs from '../components/Navs'
 
 
 async function NavBar() {

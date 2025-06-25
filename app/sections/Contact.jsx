@@ -5,7 +5,7 @@ import { Toaster } from '@/components/ui/sonner'
 import { toast } from 'sonner'
 import dynamic from 'next/dynamic'
 
-const ScrollFloat = dynamic(() => import('./ScrollFloat'));
+const ScrollFloat = dynamic(() => import('../components/ScrollFloat'));
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import dynamic from 'next/dynamic';
-const ScrollFloat = dynamic(() => import('./ScrollFloat'));
-const ScrollReveal = dynamic(() => import('./ScrollReveal'));
+const ScrollFloat = dynamic(() => import('../components/ScrollFloat'));
+const ScrollReveal = dynamic(() => import('../components/ScrollReveal'));
 
 
 function About() {
