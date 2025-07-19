@@ -28,10 +28,12 @@ function MobileNav() {
                     <a className='w-full h-16 bg-customGray-300 rounded-lg text-center pt-4' aria-label='projects section Link' href="#projects">projects</a>
                     <a className='w-full h-16 bg-customGray-300 rounded-lg text-center pt-4' aria-label='contact section Link' href="#contact">contact</a>
                 </nav>
-                <button className='flex items-center w-full justify-between cursor-pointer text-white font-black px-6 py-2 rounded-xl bg-primary-500 hover:bg-primary-500/90'>
-                    <h1>Resume</h1>
-                    <svg xmlns="http://www.w3.org/2000/svg" className='fill-white' width="24" height="24" viewBox="0 0 24 24" ><path d="m12 16 4-5h-3V4h-2v7H8z"></path><path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z"></path></svg>
-                </button>
+                <a href="/Mahdi_hadjidj-Resume.pdf" download={true} className='w-full'>
+                    <button className='flex items-center justify-between w-full gap-4 cursor-pointer text-white font-black px-6 py-2 rounded-xl bg-primary-500 hover:bg-primary-500/90'>
+                        <h1>Resume</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" className='fill-white' width="24" height="24" viewBox="0 0 24 24" ><path d="m12 16 4-5h-3V4h-2v7H8z"></path><path d="M20 18H4v-7H2v7c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2v-7h-2v7z"></path></svg>
+                    </button>
+                </a>
             </aside>
         </>
     )
